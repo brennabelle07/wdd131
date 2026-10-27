@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+main {
+    grid-column: 1/span 2;
+    grid-row: 1;
+    background-color: white;
+    color: black;
+}
+
+aside {
+    grid-column: 3/span 1;
+    background-color: darkgray;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
