@@ -1,0 +1,10 @@
+body {
+    background-color: #3c014e;
+    color: #f3dffc;   
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
