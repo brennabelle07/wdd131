@@ -8,7 +8,10 @@ header, footer {
 }
 
 @media screen and (max-width: 640px){
-    .hamburger {
+
+    .hamburger {display: none;}
+
+    .hamburger.toggle {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -19,15 +22,15 @@ header, footer {
         padding: 0;
     }
 
-    .hamburger.active span:nth-child(1) {
+    .hamburger.toggle span:nth-child(1) {
         transform: translateY(9px) rotate(50deg);
     }
 
-    .hamburger.active span:nth-child(2) {
+    .hamburger.toggle span:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active span:nth-child(3) {
+    .hamburger.toggle span:nth-child(3) {
         transform: translateY(-9px) rotate(50deg)
     }
 
@@ -43,7 +46,7 @@ header, footer {
     }
     nav.toggle{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #3c014e;
         color: #f3dffc;
         max-width: 640px;
