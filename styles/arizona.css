@@ -1,4 +1,4 @@
-root {
+:root {
     --reg-font-size: 14px;
     --md-font-size: 20px;
     --lg-font-size: 25px;
@@ -26,8 +26,8 @@ footer {
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px
 }
 
@@ -63,12 +63,6 @@ section li {
     grid-row: 3/4;
 }
 
-footer {
-    color: white;
-    background-color:black;
-}
-
-
 @media screen and (max-width: 500px) {
     .hero {
         display: block;
@@ -79,10 +73,19 @@ footer {
     section {
         margin: 10px;
         font-size: var(--reg-font-size);
-    }
 
-    section header {
         text-align: center;
     }
+
+    .weather h2::after {
+        content:"";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        background-image: url("../images/DayFog.svg")
+    }
 }
+
+
 
