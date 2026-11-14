@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arizona | The Grand Canyon State</title>
+        <meta name="charset" content="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="An informational page about the State of Arizona, United States of America. Offers facts and information about the state and its weather conditions.">
+        <meta name="author" content="Brenna Lee Waite">
+        <link rel="stylesheet" href="styles/az.css">
+        <script src="scripts/arizona.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Arizona</h1>
+        </header>
+        <main>
+            <picture id="hero">
+                <source srcset="images/arizona-large.webp" media="min-width: 1000px">
+                <source srcset="images/arizona-medium.webp" media="min-width: 550px">
+                <img src="images/arizona-small.webp" alt="Sonoran Desert at sunset in Arizona">
+            </picture>
+            <section id="data">
+                <h2>Data</h2>
+                <ul>
+                    <li>Population: 7,623,818</li>
+                    <li>Area: 113,990 square miles</li>
+                    <li>Capital: Pheonix</li>
+                    <li>Language: English/Spanish</li>
+                    <li>Time Zone: GMT-7</li>
+                    <li>State Flower: Saguaro cactus blossom</li>
+                    <li>State Tree: Palo verde</li>
+                    <li>State Bird: Cactus wren</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Weather</h2>
+                <ul>
+                    <li id="temp">Temparature: 119 degrees Fahrenheit</li>
+                    <li id="condit">Conditions: Partly Cloudy</li>
+                    <li id="wind">Wind: 5mph</li>
+                    <li id="chill"></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <span id="idkyet"></span>
+        </footer>
+    </body>
+</html>
