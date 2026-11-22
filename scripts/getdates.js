@@ -1,2 +1,2 @@
-document.getElementById("lastModified").textContent = document.lastModified;
-document.getElementById("currentyear").textContent = new Date().getFullYear();
+document.getElementById("lastModified").textContent = "Last Modifed:" + document.lastModified;
+document.getElementById("currentYear").textContent = "Copyright" + new Date().getFullYear() + "Brenna Waite";

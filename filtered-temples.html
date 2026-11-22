@@ -7,10 +7,11 @@
     <meta name="author" content="Brenna Waite">
     <title>W02 Photo Album Project</title>
     <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/temples-large.css">"
+    <link rel="stylesheet" href="styles/temples-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
 
 </head>
 <body>
@@ -18,11 +19,11 @@
         <script src="scripts/temples.js"></script>
         <p>Temple Album</p>
         <nav>
-            <a href="">home</a>
-            <a href="">old</a>
-            <a href="">new</a>
-            <a href="">large</a>
-            <a href="">small</a>
+            <a href="#temples">home</a>
+            <a href="#templesOld">old</a>
+            <a href="#templesNew">new</a>
+            <a href="#templesLarge">large</a>
+            <a href="#templesSmall">small</a>
         </nav>
         <button class="hamburger">
             <span></span>
@@ -34,8 +35,10 @@
         <h1>Home</h1>
         <div id="templeCards"></div>
     </main>
+    <footer>
+        <span id="lastModified"></span>
+        <span id="currentYear"></span>
+    </footer>
     
 </body>
-
-
 </html>
